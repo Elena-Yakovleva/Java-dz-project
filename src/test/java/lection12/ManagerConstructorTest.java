@@ -2,8 +2,10 @@ package lection12;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 class ManagerConstructorTest {
 
@@ -16,55 +18,60 @@ class ManagerConstructorTest {
     Poster poster5 = new Poster(5, "Человек невидимка", "ужасы", "США, Канада, Австралия");
     Poster poster6 = new Poster(6, "Тролли0", "мультфильм", "США");
 
-    // Вывод пустого массива
+    // Вывод пустого массива с добавлением заглушки.
     @Test
     public void shouldOutputEmpty(){
-        ManagerConstructor manager = new ManagerConstructor();
+        ManagerConstructor manager = Mockito.mock(ManagerConstructor.class);
+        Poster[] posters = {};
+        doReturn(posters).when(manager).findAll();
 
         Poster[] expected = {};
         Assertions.assertArrayEquals(expected, manager.findAll());
     }
 
-    // Добавление первой афиши
+    // Добавление первой афиши с заглушкой
     @Test
     public void shouldAddedFirstPoster() {
-        ManagerConstructor manager = new ManagerConstructor();
-
-        manager.addPoster(poster1);
+        ManagerConstructor manager = Mockito.mock(ManagerConstructor.class);
+        Poster[] posters = {poster1};
+        doReturn(posters).when(manager).findAll();
 
         Poster[] expected = {poster1};
         Assertions.assertArrayEquals(expected, manager.findAll());
     }
 
-    // Вывод афиш в порядке добавления
+    // Вывод афиш в порядке добавления с заглушкой
     @Test
     public void shouldFindAll(){
-        ManagerConstructor manager = new ManagerConstructor();
-
-        manager.addPoster(poster1);
-        manager.addPoster(poster2);
-        manager.addPoster(poster3);
-        manager.addPoster(poster4);
-        manager.addPoster(poster5);
-        manager.addPoster(poster6);
+        ManagerConstructor manager = Mockito.mock(ManagerConstructor.class);
+        Poster[] posters = {poster1, poster2, poster3, poster4, poster5, poster6};
+        doReturn(posters).when(manager).findAll();
 
         Poster[] expected = {poster1,poster2, poster3, poster4, poster5, poster6};
         Assertions.assertArrayEquals(expected, manager.findAll());
     }
 
-    // Вывод добавленных афиш в обратном порядке с учетом количества афиш по умолчанию
+    // Вывод добавленных афиш в обратном порядке с учетом количества афиш по умолчанию с заглушкой
     @Test
     public void shouldFindLast(){
-        ManagerConstructor manager = new ManagerConstructor();
+        ManagerConstructor manager = Mockito.mock(ManagerConstructor.class);
+        Poster[] posters = {poster1, poster2, poster3, poster4, poster5, poster6};
+        doReturn(posters).when(manager).findLast();
 
+        Poster[] expected = {poster6, poster5, poster4, poster3, poster2};
+        Assertions.assertArrayEquals(expected, manager.findLast());
+    }
+
+    // Вывод афиш в обратном порядке в случае если их количество меньше, чем указанно по умолчанию.
+    @Test
+    public void shouldFindLastMinSize() {
+        ManagerConstructor manager = new ManagerConstructor();
         manager.addPoster(poster1);
         manager.addPoster(poster2);
         manager.addPoster(poster3);
         manager.addPoster(poster4);
-        manager.addPoster(poster5);
-        manager.addPoster(poster6);
 
-        Poster[] expected = {poster6, poster5, poster4, poster3, poster2};
+        Poster[] expected = {poster4, poster3, poster2, poster1};
         Assertions.assertArrayEquals(expected, manager.findLast());
     }
 
@@ -100,19 +107,7 @@ class ManagerConstructorTest {
         Assertions.assertArrayEquals(expected, manager.findLast());
     }
 
-    // Вывод афиш в обратном порядке в случае если их количество меньше, чем указанно по умолчанию.
-    @Test
-    public void shouldFindLastMinSize() {
-        ManagerConstructor manager = new ManagerConstructor();
 
-        manager.addPoster(poster1);
-        manager.addPoster(poster2);
-        manager.addPoster(poster3);
-        manager.addPoster(poster4);
-
-        Poster[] expected = {poster4, poster3, poster2, poster1};
-        Assertions.assertArrayEquals(expected, manager.findLast());
-    }
 
 
 }

@@ -1,3 +1,5 @@
+package lection4.dz2;
+
 public class BmiService {
 
     public int calculate (double height, double weight) {

@@ -1,3 +1,5 @@
+package lection4.dz3;
+
 public class CreditPaymentService {
 
     public int calculate (double loanAmount, double interestRate, int numMonths) {

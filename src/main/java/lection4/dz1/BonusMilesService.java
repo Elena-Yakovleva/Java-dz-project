@@ -1,3 +1,5 @@
+package lection4.dz1;
+
 public class BonusMilesService {
 
     public int calculate(int price) {

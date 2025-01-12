@@ -3,7 +3,7 @@
 
 ## Блок 2. Основы Java, Автотесты и CI
 * [Лекция 3. Примитивные типы данных, условные операторы, выход за границы типов и погрешность вычислений](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection3)
-* [Лекция 4. Testability. Введение в ООП]()
+* [Лекция 4. Testability. Введение в ООП](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection4)
 * [Лекция 5. Система сборки Maven, управление зависимостями, авто-тесты на JUnit5]()
 * [Лекция 6. Пакеты и циклы]()
 * [Лекция 7. Строки и массивы]()

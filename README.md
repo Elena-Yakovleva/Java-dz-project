@@ -6,7 +6,7 @@
 * [Лекция 4. Testability. Введение в ООП](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection4)
 * [Лекция 5. Система сборки Maven, управление зависимостями, авто-тесты на JUnit5](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection5)
 * [Лекция 6. Пакеты и циклы](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection6)
-* [Лекция 7. Строки и массивы]()
+* [Лекция 7. Строки и массивы](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection7)
 * [Лекция 8. Выстраивание процесса непрерывной интеграции (CI): Github Actions. Покрытие кода с JaCoCo, статический анализ кода: CheckStyle, SpotBugs]()
 
 ## Блок 3. Объектно-ориентированное программирование

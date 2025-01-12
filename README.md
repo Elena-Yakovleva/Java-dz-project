@@ -10,7 +10,7 @@
 * [Лекция 8. Выстраивание процесса непрерывной интеграции (CI): Github Actions. Покрытие кода с JaCoCo, статический анализ кода: CheckStyle, SpotBugs](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection8)
 
 ## Блок 3. Объектно-ориентированное программирование
-* [Лекция 9. Объектно-ориентированное программирование: ключевые принципы]()
+* [Лекция 9. Объектно-ориентированное программирование: ключевые принципы](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection9)
 * [Лекция 10. Объектно-ориентированное программирование и проектирование]()
 * [Лекция 11. Объекты с внутренним состоянием, управление состоянием при тестировании]()
 * [Лекция 12. Композиция и зависимость объектов. Mockito при создании авто-тестов.](https://github.com/Elena-Yakovleva/Java-project/tree/main/src/main/java/lection12)

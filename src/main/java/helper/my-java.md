@@ -298,6 +298,24 @@ Code Coverage — метрика, показывающая, насколько �
   </plugin> 
 
 ```
+** Mockito **
+
+Mockito - самая популярная библиотека для создания
+подобного рода заглушек.
+
+Пример подключения в коде тестового файла: 
+
+````ProductRepository repo = Mockito.mock(ProductRepository.class);````
+
+````
+ <dependency>
+   <groupId>org.mockito</groupId>
+   <artifactId>mockito-junit-jupiter</artifactId>
+   <version>3.6.28</version>
+     <scope>test</scope>
+ </dependency>
+````
+
 **Lombok**
 Программа для Maven  для создания базовых конструкторов
 

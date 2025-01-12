@@ -21,7 +21,7 @@
 * [Лекция 15. Интерфейсы для организации малой связности. Обобщённое программирование (Generics)]()
 * [Лекция 16. Collections Framework. CRUD и тестирование систем, управляющих н"абором объектов]()
 
-# Подказки
+## Подказки
 
 1. [Подсказки по Git.](https://github.com/Elena-Yakovleva/Java-project/blob/main/src/main/java/helper/my-git.md)
 2. [Подсказки по Java.](https://github.com/Elena-Yakovleva/Java-project/blob/main/src/main/java/helper/my-java.md)

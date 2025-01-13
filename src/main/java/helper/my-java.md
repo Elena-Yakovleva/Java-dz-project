@@ -370,6 +370,7 @@ Mockito - самая популярная библиотека для созда
 ````
 Примеры кода:
 @Getter, @Setter
+
 java 
 ````
 public class User {
@@ -414,6 +415,7 @@ public class Author {
 }
 ````
 @NoArgsConstructor, @RequiredArgsConstructor, @AllArgsConstructor
+
 java
 ````
 public class Author {
@@ -452,6 +454,7 @@ public class Author {
 }
 ````
 @ToString
+
 java
 ````
 public class Author {

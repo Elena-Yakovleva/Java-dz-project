@@ -51,12 +51,16 @@ class ManagerConstructorTest {
         Assertions.assertArrayEquals(expected, manager.findAll());
     }
 
-    // Вывод добавленных афиш в обратном порядке с учетом количества афиш по умолчанию с заглушкой
+    // Вывод добавленных афиш в обратном порядке с учетом количества афиш по умолчанию
     @Test
     public void shouldFindLast(){
-        ManagerConstructor manager = Mockito.mock(ManagerConstructor.class);
-        Poster[] posters = {poster1, poster2, poster3, poster4, poster5, poster6};
-        doReturn(posters).when(manager).findLast();
+        ManagerConstructor manager = new ManagerConstructor();
+        manager.addPoster(poster1);
+        manager.addPoster(poster2);
+        manager.addPoster(poster3);
+        manager.addPoster(poster4);
+        manager.addPoster(poster5);
+        manager.addPoster(poster6);
 
         Poster[] expected = {poster6, poster5, poster4, poster3, poster2};
         Assertions.assertArrayEquals(expected, manager.findLast());

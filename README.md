@@ -18,7 +18,7 @@
 ## Блок 4. Исключения, Интерфейсы, Generics и Collections Framework
 * [Лекция 13. Наследование и расширяемость систем. Проблемы наследования](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection13)
 * [Лекция 14. Исключительные ситуации и их обработка. Тестирование исключений](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection14)
-* [Лекция 15. Интерфейсы для организации малой связности. Обобщённое программирование (Generics)]()
+* [Лекция 15. Интерфейсы для организации малой связности. Обобщённое программирование (Generics)](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection15)
 * [Лекция 16. Collections Framework. CRUD и тестирование систем, управляющих н"абором объектов]()
 
 ## Подсказки

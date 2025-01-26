@@ -101,6 +101,102 @@
       System.out.println(i);
     }
   ```
+  
+**Методы**
+
+Добавление элемента в массив
+`````
+    // Вспомогательный метод для имитации добавления элемента в массив
+    // Метод имитации позваляет использовать этот метод в том случае, если необходимо проводить одну и туже работу с несколькими репозиториями.
+    // К примеру, в интернет магазине можно реализовать несколько репозиториев на разные виды продукции
+    private Product[] addToArray(Product[] current, Product product) {
+        Product[] tmp = new Product[current.length + 1];
+        for (int i = 0; i < current.length; i++) {
+            tmp[i] = current[i];
+        }
+        tmp[tmp.length - 1] = product;
+        return tmp;
+    }
+
+    // Метод добавления товара в нужный репозиторий с использованием метода имитации
+    public void add(Product product) {
+        products = addToArray(products, product);
+    }
+
+`````
+
+Удаление элемента из массива
+
+````
+  public void remote(int id) {
+    Product[] tmp = new Product[products.lenght - 1];
+    
+    int copyToIndex = 0;
+    for (Product product : products) {
+      if (product.getId() != id) {
+        tmp[copyToIndex] = product;
+        copyToIndex++;
+        }
+      }
+      products = tmp;  
+  }
+````
+Метод поиска информации по запросу
+
+`````
+    // Для репозитория\
+    // поиск по одному параметру
+    public Task[] search(String query) {
+        Task[] result = new Task[0]; // массив для ответа
+        for (Task task : tasks) { // перебираем все задачи
+            if (task.matches(query)) { // если задача подходит под запрос
+                result = addToArray(result, task); // добавляем её в массив ответа
+            }
+        }
+        return result;
+    }
+    // поиск по двум параметрам 
+        public Ticket[] search(String from, String to) {
+        Ticket[] result = new Ticket[0]; // массив для ответа
+        for (Ticket ticket : tickets) { // перебираем все билеты
+            if (ticket.getFrom().equals(from)) { // совпадает аэропорт вылета
+                if (ticket.getTo().equals(to)) { // совпадает аэропорт прилёта
+                    result = addToArray(result, ticket); // добавляем его в массив ответа
+                }
+            }
+        }
+        return result;
+    }
+    ---
+    // Для класса родителя 
+    public boolean matches(String query) {
+        return false;
+    }
+    
+    // Для наследника 
+    @Override 
+    // Когда у наследника есть несколько параметров типа String
+    public boolean matches(String query) {
+        if (topic.contains(query)) { // поиск в топике задачи
+            return true;
+        }
+        if (project.contains(query)) { // поиск в названии проекта
+            return true;
+        }
+        return false;
+        
+    // или 
+  
+    @Override
+    // Когда наследник состоит из массива данных
+    public boolean matches(String query) {
+        for (String subtask : subtasks) {
+            if (subtask.contains(query)) {
+                return true;
+            }
+        } return false;
+    }
+`````
 
 **Прочее**
 
@@ -190,6 +286,11 @@ package - название пакета может составляться из
 public class NameClassTest {
 
     @ParameterizedTest
+    
+    nameMetod.csv
+    3, 10000, 3000, 20000
+    2, 100000, 60000, 150000
+
     @CsvSource(files = "src/test/resources/nameMetod.csv")
     public void nameTest(параметры) {
 
@@ -203,11 +304,14 @@ public class NameClassTest {
 
 ```
 
-```
-nameMetod.csv
-3, 10000, 3000, 20000
-2, 100000, 60000, 150000
-```
+**Типы запросов для тестов**
+
+```Assertions.assertEquals(expected, actual)``` - сравнивает ожидаемый и актуальный результат, в том случае, если сравниваются простые типы переменных: int, String, long ..
+```Assertions.assertArrayEquals(expected, actual)``` - сравнивает массивы
+```Assertions.assertTrue(actual)``` - для проверки boolean true
+```Assertions.assertFalse(actual)``` - для проверки boolean false
+```Assertions.assertThrows(AlreadyExistsException.class, () -> repo.add(blouse));``` - тестирование исключений
+
 
 **Библиотеки**
 

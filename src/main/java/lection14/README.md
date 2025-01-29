@@ -126,3 +126,9 @@ public Product findById(???) {
 
 Напишите два автотеста на репозиторий: первый должен проверять успешность добавления элемента, второй — генерации AlreadyExistsException при попытке добавить элемент с повторяющимся ID.
 
+## Сделанное ДЗ
+
+1. Product - информация о продукте.
+2. ShopRepository - менеджер магазина.
+3. NegativeArraySizeException, NotFoundException - классы исключений.
+4. AlreadyExistsException - доп.задание.

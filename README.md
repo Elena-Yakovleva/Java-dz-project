@@ -28,6 +28,10 @@
 3. [Виртуальная машина](https://github.com/Elena-Yakovleva/Java-project/blob/main/src/main/java/helper/building-a-vm.md)
 4. [Шаблон заполнения Issue](https://github.com/Elena-Yakovleva/Java-project/blob/main/src/main/java/helper/Issue.md)
 
+## Дополнительные задачи
+1. [Сумматор]()
+
+
 
 ## Примеры из лекций
 

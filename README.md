@@ -29,8 +29,8 @@
 4. [Шаблон заполнения Issue](https://github.com/Elena-Yakovleva/Java-project/blob/main/src/main/java/helper/Issue.md)
 
 ## Дополнительные задачи
-1. [Сумматор]()
-
+1. [Сумматор](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/sumNumbers)
+2.
 
 
 ## Примеры из лекций

@@ -30,7 +30,7 @@
 
 ## Дополнительные задачи
 1. [Сумматор](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/sumNumbers)
-2.
+2. [Расчет площади круга](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/calculateCircleArea)
 
 
 ## Примеры из лекций

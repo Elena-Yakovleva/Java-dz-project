@@ -31,8 +31,9 @@
 ## Дополнительные задачи
 1. [Сумматор](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/sumNumbers)
 2. [Расчет площади круга](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/calculateCircleArea)
-
-
+3. [Високосный год](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/leapYear)
+4. []()
+5. 
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)

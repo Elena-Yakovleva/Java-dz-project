@@ -33,7 +33,8 @@
 2. [Расчет площади круга](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/calculateCircleArea)
 3. [Високосный год](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/leapYear)
 4. [Угадываем високосность](https://github.com/Elena-Yakovleva/Java-dz-project/blob/main/src/main/java/additionalTasks/guessLeapYear/README.md)
-5. 
+5. []()
+6. 
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)

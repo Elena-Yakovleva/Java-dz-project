@@ -19,7 +19,7 @@
 * [Лекция 13. Наследование и расширяемость систем. Проблемы наследования](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection13)
 * [Лекция 14. Исключительные ситуации и их обработка. Тестирование исключений](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection14)
 * [Лекция 15. Интерфейсы для организации малой связности. Обобщённое программирование (Generics)](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection15)
-* [Лекция 16. Collections Framework. CRUD и тестирование систем, управляющих н"абором объектов](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection16)
+* [Лекция 16. Collections Framework. CRUD и тестирование систем, управляющих набором объектов](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/lection16)
 
 ## Подсказки
 
@@ -34,8 +34,9 @@
 3. [Високосный год](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/leapYear)
 4. [Угадываем високосность](https://github.com/Elena-Yakovleva/Java-dz-project/blob/main/src/main/java/additionalTasks/guessLeapYear/README.md)
 5. [ИПшник](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/accounting)
-6. []()
-7. 
+6. [Сравнение double](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/doubleAndFloat)
+7. []()
+8. 
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)

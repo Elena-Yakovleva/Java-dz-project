@@ -35,7 +35,7 @@
 4. [Угадываем високосность](https://github.com/Elena-Yakovleva/Java-dz-project/blob/main/src/main/java/additionalTasks/guessLeapYear/README.md)
 5. [ИПшник](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/accounting)
 6. [Сравнение double](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/doubleAndFloat)
-7. []()
+7. [Онлайн-читалка](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/onlineReader)
 8. 
 ## Примеры из лекций
 

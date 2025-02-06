@@ -313,11 +313,11 @@ public class NameClassTest {
 
 **Типы запросов для тестов**
 
-```Assertions.assertEquals(expected, actual)``` - сравнивает ожидаемый и актуальный результат, в том случае, если сравниваются простые типы переменных: int, String, long ..
-```Assertions.assertArrayEquals(expected, actual)``` - сравнивает массивы
-```Assertions.assertTrue(actual)``` - для проверки boolean true
-```Assertions.assertFalse(actual)``` - для проверки boolean false
-```Assertions.assertThrows(AlreadyExistsException.class, () -> repo.add(blouse));``` - тестирование исключений
+* ```Assertions.assertEquals(expected, actual)``` - сравнивает ожидаемый и актуальный результат, в том случае, если сравниваются простые типы переменных: int, String, long ..
+* ```Assertions.assertArrayEquals(expected, actual)``` - сравнивает массивы
+* ```Assertions.assertTrue(actual)``` - для проверки boolean true
+* ```Assertions.assertFalse(actual)``` - для проверки boolean false
+* ```Assertions.assertThrows(AlreadyExistsException.class, () -> repo.add(blouse));``` - тестирование исключений
 
 
 **Библиотеки**

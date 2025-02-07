@@ -36,7 +36,8 @@
 5. [ИПшник](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/accounting)
 6. [Сравнение double](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/doubleAndFloat)
 7. [Онлайн-читалка](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/onlineReader)
-8. 
+8. [Покупка товаров](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/productsList)
+9.
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)

@@ -240,6 +240,33 @@ jobs:
 
 ```
 
+Шаблон для gradle
+````
+name: Java CI with Gradle
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'adopt'
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Build with Gradle
+        run: ./gradlew test
+
+# Команда `chmod +x gradlew` делает файл gradlew исполняемым в linux. 
+# Команда `./gradlew test` собирает ваш проект и запускает тесты.
+````
+
 **Подключение пакетов**
 Package — это механизм организации классов и интерфейсов в логические группы. Он помогает управлять пространством имён,
 обеспечивая структурирование и упорядочивание кода.
@@ -447,6 +474,23 @@ Mockito - самая популярная библиотека для созда
    <version>3.6.28</version>
      <scope>test</scope>
  </dependency>
+````
+
+**TestNG**
+
+Аннотации: https://testng.org/#_annotations
+
+Основные assert: https://testng.org/#_success_failure_and_assert
+
+````
+dependencies {
+    testImplementation 'org.testng:testng:7.1.0'
+
+}
+
+test {
+    useTestNG()
+}
 ````
 
 **Lombok**

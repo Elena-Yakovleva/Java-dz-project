@@ -37,7 +37,7 @@
 6. [Сравнение double](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/doubleAndFloat)
 7. [Онлайн-читалка](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/onlineReader)
 8. [Покупка товаров](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/productsList)
-9.
+9. [Поворот матрицы (готовое решение)](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/matrixRotating)
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)

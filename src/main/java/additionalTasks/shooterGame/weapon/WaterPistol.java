@@ -4,16 +4,10 @@ import additionalTasks.shooterGame.Weapon;
 
 public class WaterPistol extends Weapon {
 
-    private final String nameWeapon = "WaterPistol";
-
-    public WaterPistol() {}
-
-    public String getNameWeapon() {
-        return nameWeapon;
-    }
+    private final String nameWeapon = "Водный пистолет";
 
     @Override
     public void shot() {
-        System.out.println("Вы слышите выстрел из  " + nameWeapon + ": Псссс - Псссс");
+        System.out.println("Вы стреляете из " + nameWeapon.replace("ный", "ного").replace("ет", "ета") + ": \"Псссс - Псссс\" и идете дальше.");
     }
 }

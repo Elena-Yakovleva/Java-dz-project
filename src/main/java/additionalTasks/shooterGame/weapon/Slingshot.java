@@ -4,17 +4,10 @@ import additionalTasks.shooterGame.Weapon;
 
 public class Slingshot extends Weapon {
 
-    private final String nameWeapon = "Slingshot";
-
-    public Slingshot(){}
-
-    public String getNameWeapon() {
-        return nameWeapon;
-    }
-
+    private final String nameWeapon = "Рогатка";
 
     @Override
     public void shot() {
-        System.out.println("Вы слышите выстрел из  " + nameWeapon + ": Чпок - Чпок");
+        System.out.println("Вы стреляете из " + nameWeapon.replace("ка", "ки") + ": \"Чпок - Чпок\" и идете дальше.");
     }
 }

@@ -4,16 +4,10 @@ import additionalTasks.shooterGame.Weapon;
 
 public class BigGun extends Weapon {
 
-    private final String nameWeapon = "BigGun";
-
-    public BigGun(){}
-
-    public String getNameWeapon() {
-        return nameWeapon;
-    }
+    private final String nameWeapon = "Пистолет";
 
     @Override
     public void shot() {
-        System.out.println("Вы слышите выстрел из  " + nameWeapon + ": Бах - Бах");
+        System.out.println("Вы стреляете  из  " + nameWeapon + "а: \"Бах - Бах\" и идете дальше.");
     }
 }

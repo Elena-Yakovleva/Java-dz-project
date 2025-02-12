@@ -5,10 +5,12 @@ import additionalTasks.shooterGame.weapon.*;
 import java.util.Scanner;
 
 public class Player {
+
     // Указываем тип данных Weapon, который будет храниться в "слотах игрока"
     private Weapon[] weaponSlots;
 
     public Player() {
+
         // Снаряжаем нашего игрока
         weaponSlots = new Weapon[]{
                 // TODO заполнить слоты оружием
@@ -28,7 +30,7 @@ public class Player {
     public void shotWithWeapon(int slot) {
         // TODO проверить на выход за границы
         if (slot < 0 || slot > weaponSlots.length - 1) {
-            System.out.println("Оружия с таким номером - нет. Повторите ввод.");
+            System.out.println("Оружия с таким номером - нет. Вы просто убегаете дальше по дороге. ");
 
         } else {
             // Получаем оружие из выбранного слота
@@ -43,15 +45,15 @@ public class Player {
         Scanner scanner = new Scanner(System.in);
         Player player = new Player();
         // Как настоящие программисты мы имеем в виду, что исчисление начинается с 0
-        System.out.format("У игрока %d слотов с оружием,"
-                        + " введите номер, чтобы выстрелить,"
-                        + " или - 1 чтобы выйти%n",
-                player.getSlotsCount()
-        );
 
         int slot;
 
         while (true) {
+            System.out.format("Вы идете по дороге и решаете пострелять. У игрока %d слотов с оружием,"
+                            + " введите номер, чтобы выстрелить,"
+                            + " или - 1 чтобы выйти%n",
+                    player.getSlotsCount()
+            );
 
             int input = scanner.nextInt();
 

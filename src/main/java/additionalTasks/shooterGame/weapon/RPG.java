@@ -4,16 +4,10 @@ import additionalTasks.shooterGame.Weapon;
 
 public class RPG extends Weapon {
 
-    private final String nameWeapon = "RPG";
-
-    public RPG() {}
-
-    public String getNameWeapon() {
-        return nameWeapon;
-    }
+    private final String nameWeapon = "Гранатомет";
 
     @Override
     public void shot() {
-        System.out.println("Вы слышите выстрел из  " + nameWeapon + ": Ба-баххх");
+        System.out.println("Вы стреляете из " + nameWeapon + "а: \"Ба-баххх\" и идете дальше.");
     }
 }

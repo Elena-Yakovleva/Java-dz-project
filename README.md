@@ -38,6 +38,8 @@
 7. [Онлайн-читалка](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/onlineReader)
 8. [Покупка товаров](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/productsList)
 9. [Поворот матрицы (готовое решение)](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/matrixRotating)
+10. [Игра-шутер](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/additionalTasks/shooterGame)
+11. 
 ## Примеры из лекций
 
 *[Лекция 13](https://github.com/Elena-Yakovleva/Java-dz-project/tree/main/src/main/java/examplesFromLectures/lection13)
